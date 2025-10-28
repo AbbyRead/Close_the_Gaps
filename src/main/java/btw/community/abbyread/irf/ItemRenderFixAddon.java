@@ -1,5 +1,4 @@
 package btw.community.abbyread.irf;
-
 import btw.AddonHandler;
 import btw.BTWAddon;
 
