@@ -1,10 +1,10 @@
-# Item Render Fix
+# Close the Gaps
 
 A small graphical fix addon for the Better Than Wolves CE 3.0.0 Minecraft mod.
 
 ## Overview
 
-Item Render Fix eliminates visible gaps in sprite-based item and block models by removing unnecessary texture UV padding that was originally added to prevent atlas bleeding artifacts.
+Close the Gaps eliminates visible space between the edges of sprite-based item and block models by removing unnecessary texture UV padding that was originally added to prevent atlas bleeding artifacts.
 
 ## The Problem
 
@@ -68,5 +68,5 @@ You're free to use, modify, and share it however you see fit.
 
 ---
 
-*"Problems start when you sell the intent and not the reality."*&ensp;&ndash; Doug Wagner
+*"Problems start when you sell the intent and not the reality."* &ensp;&ndash; Doug Wagner
 </br><small>[The Gap Between Intention and Reality](https://www.sunwaptasolutions.com/2011/04/the-gap-between-intention-and-reality)</small>

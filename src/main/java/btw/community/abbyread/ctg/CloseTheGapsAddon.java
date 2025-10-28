@@ -1,11 +1,12 @@
-package btw.community.abbyread.irf;
+package btw.community.abbyread.ctg;
 import btw.AddonHandler;
 import btw.BTWAddon;
 
-public class ItemRenderFixAddon extends BTWAddon {
-    private static ItemRenderFixAddon instance;
+public class CloseTheGapsAddon extends BTWAddon {
+    @SuppressWarnings("unused")
+    private static CloseTheGapsAddon instance;
 
-    public ItemRenderFixAddon() {
+    public CloseTheGapsAddon() {
         super();
     }
 

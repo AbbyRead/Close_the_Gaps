@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "ar_irf",
+  "id": "ar_ctg",
   "version": "${version}",
-  "name": "Item Render Fix",
-  "description": "Closes the gaps in the meshes.",
+  "name": "Close the Gaps",
+  "description": "Closes the gaps in held item rendering.",
   "authors": ["Abigail Read"],
   "contact": {
     "homepage": "",
@@ -11,18 +11,18 @@
     "issues": ""
   },
   "license": "0BSD",
-  "icon": "ar_irf/icon.png",
+  "icon": "ar_ctg/icon.png",
   "environment": "*",
   "entrypoints": {
     "btw:addon": [
-      "btw.community.abbyread.irf.ItemRenderFixAddon"
+      "btw.community.abbyread.ctg.CloseTheGapsAddon"
     ]
   },
   "custom": {
-    "btw:addon_prefix": "ar_irf"
+    "btw:addon_prefix": "ar_ctg"
   },
   "mixins": [
-    "ar_irf.mixins.json"
+    "ar_ctg.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.12.0",

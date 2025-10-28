@@ -1,4 +1,4 @@
-package btw.community.abbyread.irf.mixin;
+package btw.community.abbyread.ctg.mixin;
 
 import net.minecraft.src.TextureAtlasSprite;
 import org.spongepowered.asm.mixin.Mixin;

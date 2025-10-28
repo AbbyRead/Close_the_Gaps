@@ -1,10 +1,9 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "btw.community.abbyread.irf.mixin",
+  "package": "btw.community.abbyread.ctg.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "ItemRendererMixin",
     "TextureAtlasSpriteMixin"
   ],
   "client": [
