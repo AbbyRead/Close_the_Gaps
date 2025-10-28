@@ -1,0 +1,33 @@
+# gradle
+.gradle/
+build/
+build_BTW/
+out/
+classes/
+
+# reference
+btw-sources.jar
+btw-sources
+BTWCE 3.0 snapshot 7 Intermediary Distribution.zip
+
+# eclipse
+*.launch
+
+# idea
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# vscode
+.settings/
+.vscode/
+bin/
+.classpath
+.project
+
+# fabric
+run/
+
+# macos
+*.DS_Store

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "ar_irf",
+  "version": "${version}",
+  "name": "Item Render Fix",
+  "description": "Closes the gaps in the meshes.",
+  "authors": ["Abigail Read"],
+  "contact": {
+    "homepage": "",
+    "sources": "",
+    "issues": ""
+  },
+  "license": "0BSD",
+  "icon": "ar_irf/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "btw:addon": [
+      "btw.community.abbyread.irf.ItemRenderFixAddon"
+    ]
+  },
+  "custom": {
+    "btw:addon_prefix": "ar_irf"
+  },
+  "mixins": [
+    "ar_irf.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.0",
+    "minecraft": "1.6.4"
+  }
+}
