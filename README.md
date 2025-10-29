@@ -18,6 +18,10 @@ This addon removes the UV padding entirely, allowing item textures to use their 
 
 The fix is implemented as a single Mixin that modifies `TextureAtlasSprite.initSprite()` to skip the padding calculation that was causing the issue.
 
+## Screenshots
+It's a bit hard to tell on my not-very-extreme-resolution monitor setup, but...
+<p align="center"><img  width="49%" alt="Before" src="https://github.com/user-attachments/assets/3b2cc76d-35b0-4cb5-982c-6196481a6b10" /> <img width="49%" alt="After" src="https://github.com/user-attachments/assets/0c7eaae3-b3fa-46d4-be32-f0897e164e1b" /></p>
+
 ## Compatibility Note
 
 This approach works well on most modern systems. However, if your GPU or texture pack configuration experiences atlas bleeding issues (textures bleeding into neighboring textures), you may see that problem reappear. If this occurs, you can safely disable this addon without giving it a second thought.  Just throw it in the trash!
