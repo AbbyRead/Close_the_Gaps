@@ -10,7 +10,7 @@ Close the Gaps eliminates visible space between the edges of sprite-based item a
 
 When textures are packed into an atlas, neighboring textures can "bleed" into each other at the edges—a problem called **atlas bleeding**. To prevent this, Minecraft applies inward padding to UV coordinates, effectively shrinking each texture slightly within its allocated atlas space.
 
-However, this transparent padding causes visible gaps to appear in models, albeit slight.  It's most noticeable along the edges of sprite-based objects rendered three-dimensionally.  It makes things that should look solid appear fractured and hollow.
+However, this transparent padding causes visible gaps to appear in models.  It's most noticeable along the edges of sprite-based objects rendered three-dimensionally.  It makes things that should look solid appear fractured and hollow.
 
 ## The Solution
 
